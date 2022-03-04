@@ -4,13 +4,15 @@ import SolanaWallets from '../src/index';
 import '../styles.css';
 
 import {
-  PhantomWalletAdapter,
+  // PhantomWalletAdapter,
   SlopeWalletAdapter,
   SolflareWalletAdapter,
   SolletExtensionWalletAdapter,
   SolletWalletAdapter,
   TorusWalletAdapter,
 } from '@solana/wallet-adapter-wallets';
+
+import { PhantomWalletAdapter } from '../src/adapters/PhantomWalletAdapter';
 
 const walletOptions = {
   wallets: [
